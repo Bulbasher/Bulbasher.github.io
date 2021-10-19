@@ -1,0 +1,26 @@
+.menu {
+    position: absolute;
+    width: 65px;
+    height: 423px;
+    list-style: none;
+    display: block;
+    margin-left: 160px;
+}
+
+.menu_part {
+    letter-spacing: 0em;
+    text-align: left;
+    width: 220px;
+    padding: 10px;
+}
+
+.menu img {
+    width: 65px;
+    height: 57px;
+}
+
+.menu img:hover {
+    width: 63px;
+    height: 55px;
+    border: solid 2px beige;
+}

@@ -1,0 +1,472 @@
+html {
+    background-color: #181727;
+    display: grid;
+}
+
+.body {
+    background-color: #0D0B0C !important;
+    display: block;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+header,
+main,
+footer {
+    display: block;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.content {
+    flex-wrap: wrap;
+    max-width: 1015px;
+    margin-left: 260px;
+}
+
+.carousel1 {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 635px;
+    height: 472px;
+}
+
+.new_releases_carousel_mobile {
+    display: none;
+}
+
+.podcasts_mobile {
+    display: none;
+}
+
+.new_albums_mobile {
+    display: none;
+}
+
+.top_djs_mobile {
+    display: none;
+}
+
+.music1 {
+    position: absolute;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.music2 {
+    position: absolute;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 295px;
+    margin-left: 20px;
+    color: #E5E5E5;
+}
+
+.music3 {
+    position: absolute;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    margin-top: 324px;
+    margin-left: 20px;
+    color: #E5E5E5;
+}
+
+.music4 {
+    position: absolute;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 295px;
+    margin-left: 20px;
+    color: rgba(229, 229, 229, 1);
+}
+
+.music5 {
+    position: absolute;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 324px;
+    margin-left: 20px;
+    color: #E5E5E5;
+}
+
+.title {
+    font-family: Bebas Neue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(8, 155, 153, 1);
+    float: left;
+    margin-bottom: 5px;
+}
+
+.carousel2 {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 635px;
+    height: 472px;
+    margin-top: -480px;
+}
+
+.carousel2 .elements {
+    display: flex;
+    flex-wrap: wrap;
+    width: 635px;
+    height: 472px;
+}
+
+.carousel2 .element {
+    margin-left: 20px;
+}
+
+.carousel2 .element_text_1 {
+    position: absolute;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #E5E5E5;
+    margin-left: 5px;
+    margin-top: 144px;
+}
+
+.carousel2 .element_text_2 {
+    position: absolute;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 5px;
+    margin-top: 162px;
+}
+
+.carousel3 {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1050px;
+}
+
+.carousel3 .elements {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1050px;
+}
+
+.carousel3 .element {
+    width: 232px;
+    height: 430px;
+    margin-left: 29px;
+}
+
+.carousel3 .element_first {
+    width: 232px;
+    height: 352px;
+}
+
+.carousel3 img {
+    width: 232px;
+    height: 232px;
+}
+
+.carousel3 .element_text_1 {
+    font-family: Bebas Neue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E5E5E5;
+    margin-top: 14px;
+}
+
+.carousel3 .element_text_2 {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 24px;
+}
+
+.carousel4 {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1050px;
+}
+
+.carousel4 .elements {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1050px;
+}
+
+.carousel4 img {
+    width: 232px;
+    height: 232px;
+}
+
+.carousel4 .element {
+    width: 232px;
+    height: 282px;
+    margin-left: 29px;
+}
+
+.carousel4 .element_first {
+    width: 232px;
+    height: 282px;
+}
+
+.carousel4 .element_text_1 {
+    position: absolute;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #E5E5E5;
+    margin-left: 10px;
+    margin-top: 181px;
+}
+
+.carousel4 .element_text_2 {
+    position: absolute;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 10px;
+    margin-top: 200px;
+}
+
+.carousel5 {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1050px;
+    height: 471px;
+}
+
+.carousel5 .elements {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1050px;
+    margin-top: 40px;
+}
+
+.carousel5 img {
+    width: 187px;
+    height: 188px;
+    margin-top: -60px;
+}
+
+.carousel5 .element {
+    width: 187px;
+    height: 188px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.carousel5 .element_first {
+    width: 187px;
+    height: 188px;
+    margin-top: 20px;
+}
+
+.carousel5 .element_text_2 {
+    position: absolute;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 10px;
+    margin-top: 92px;
+}
+
+.title_ {
+    font-family: Bebas Neue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 350px;
+    height: 899px;
+}
+
+.three_objects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1050px;
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 50px;
+    height: 6px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #089B99;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+}
+
+.tracks {
+    width: 324px;
+}
+
+.top_music {
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 899px;
+    margin-left: 30px;
+}
+
+.track {
+    width: 324px;
+    height: 64px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.song {
+    color: rgba(255, 255, 255, 1);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.artist {
+    font-family: Open Sans;
+    color: rgba(8, 155, 153, 1);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.label {
+    color: rgba(255, 255, 255, 1);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.position_of_track {
+    position: absolute;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.title_top_10_of_tracks {
+    display: inline;
+    font-family: Bebas Neue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+.title_top_10_of_tracks article {
+    display: inline;
+    color: #089B99;
+}
+
+.liquid-button {
+    position: absolute;
+    left: 1380px;
+    top: 87px;
+    cursor: pointer;
+}
+
+.new_releases_carousel_mobile {
+    display: none;
+}

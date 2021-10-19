@@ -1,0 +1,283 @@
+html {
+    background-color: #181727;
+    display: grid;
+}
+
+.body {
+    background-color: #0D0B0C !important;
+    display: block;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+header,
+main,
+footer {
+    display: block;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1015px;
+    margin-left: 260px;
+}
+
+.home_carousel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1015px;
+    height: 440px;
+}
+
+.home_carousel img {
+    width: 1015px;
+    height: 440px;
+}
+
+.news_carousel {
+    width: 1015px;
+    height: 423px;
+}
+
+.news_carousel .carousel_news {
+    position: absolute;
+    font-family: Bebas Neue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: rgb(255, 255, 255);
+    margin-top: 28px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.news_carousel .carousel_title {
+    position: absolute;
+    font-family: Bebas Neue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 307px;
+    margin-left: 30px;
+}
+
+.news_carousel .carousel_text {
+    position: absolute;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(229, 229, 229, 1);
+    margin-top: 342px;
+    margin-left: 30px;
+}
+
+.news {
+    width: 1015px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+}
+
+.news div {
+    margin-left: 29px;
+}
+
+.news_text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgb(255, 255, 255);
+}
+
+.photos {
+    display: flex;
+    width: 1015px;
+    height: 180px;
+    margin-top: 60px;
+}
+
+.photos img {
+    margin-left: 10px;
+}
+
+.swiper-button-next {
+    float: right;
+    width: 24px;
+    height: 24px;
+    margin-top: 80px;
+    background-image: url("/img/arrow_forward_ios\ \(1\).png");
+    margin-left: 14px;
+    cursor: pointer;
+}
+
+.swiper-button-prev {
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-top: 80px;
+    background-image: url("/img/arrow_forward_ios.png");
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+.name_songs {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #E5E5E5;
+    text-decoration: none;
+    margin-top: 282px;
+    margin-left: 20px;
+}
+
+.name_artist {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.artist_1 {
+    width: 319px;
+    height: 350px;
+    background-image: url("/img/Rectangle31.png");
+}
+
+.artist_2 {
+    width: 319px;
+    height: 350px;
+    background-image: url("/img/Rectangle32.png");
+}
+
+.artist_3 {
+    width: 319px;
+    height: 350px;
+    background-image: url("/img/Rectangle33.png");
+}
+
+.artists {
+    display: flex;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.artists a {
+    margin-top: 60px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.videos {
+    width: 1015px;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.videos .video1 {
+    width: 303px;
+    height: 200px;
+    background-image: url("/img/Rectangle\ 51\ \(1\).png");
+    margin-left: 14px;
+}
+
+.videos .video2 {
+    width: 303px;
+    height: 200px;
+    background-image: url("/img/Rectangle\ 52\ \(1\).png");
+    margin-left: 15px;
+}
+
+.videos .video3 {
+    width: 303px;
+    height: 200px;
+    background-image: url("/img/Rectangle\ 49\ \(1\).png");
+    margin-left: 15px;
+}
+
+.videos .liquid-button path {
+    cursor: pointer;
+}
+
+.videos .play_button {
+    margin: 0px auto;
+}
+
+.videos .videos-button-next {
+    margin-left: 14px;
+    float: right;
+    width: 24px;
+    height: 24px;
+    margin-top: 90px;
+    background-image: url("/img/arrow_forward_ios\ \(1\).png");
+    cursor: pointer;
+}
+
+.videos .videos-button-prev {
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-top: 90px;
+    background-image: url("/img/arrow_forward_ios.png");
+    cursor: pointer;
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 50px;
+    height: 6px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #089B99;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+}

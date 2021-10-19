@@ -1,0 +1,251 @@
+html {
+    background-color: #181727;
+    display: grid;
+}
+
+.body {
+    background-color: #0D0B0C !important;
+    display: block;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+header,
+main,
+footer {
+    display: block;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1015px;
+    margin-left: 260px;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.photos a {
+    text-decoration: none;
+    margin-left: 29px;
+    margin-bottom: 29px;
+}
+
+.albums_carousel {
+    width: 1050px;
+    height: 423px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.albums_carousel .album_title {
+    position: absolute;
+    font-family: Bebas Neue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 324px;
+    margin-left: 20px;
+    left: 0;
+    opacity: 1;
+}
+
+.albums_carousel .number_of_photos {
+    position: absolute;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 358px;
+    margin-left: 20px;
+    left: 0;
+    opacity: 1;
+}
+
+.name_album1 {
+    position: relative;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 222px;
+    margin-left: 20px;
+}
+
+.name_album2 {
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.album_title {
+    position: relative;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 222px;
+    margin-left: 20px;
+}
+
+.number_of_photos {
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.album_1 {
+    width: 319px;
+    height: 319px;
+    background-image: url("/albums/card1\ \(17\).png");
+}
+
+.album_2 {
+    width: 319px;
+    height: 319px;
+    background-image: url("/albums/card1\ \(27\).png");
+}
+
+.album_3 {
+    width: 319px;
+    height: 319px;
+    background-image: url("/albums/card1\ \(22\).png");
+}
+
+.album_4 {
+    width: 319px;
+    height: 319px;
+    background-image: url("/albums/card1\ \(18\).png");
+}
+
+.album_5 {
+    width: 319px;
+    height: 319px;
+    background-image: url("/albums/card1\ \(28\).png");
+}
+
+.album_6 {
+    width: 319px;
+    height: 319px;
+    background-image: url("/albums/card1\ \(23\).png");
+}
+
+.album_7 {
+    width: 319px;
+    height: 319px;
+    background-image: url("/albums/card1\ \(19\).png");
+}
+
+.album_8 {
+    width: 319px;
+    height: 319px;
+    background-image: url("/albums/card1\ \(29\).png");
+}
+
+.album_9 {
+    width: 319px;
+    height: 319px;
+    background-image: url("/albums/card1\ \(24\).png");
+}
+
+.album_10 {
+    width: 319px;
+    height: 319px;
+    background-image: url("/albums/card1\ \(20\).png");
+}
+
+.album_11 {
+    width: 319px;
+    height: 319px;
+    background-image: url("/albums/card1\ \(30\).png");
+}
+
+.album_12 {
+    width: 319px;
+    height: 319px;
+    background-image: url("/albums/card1\ \(25\).png");
+}
+
+.album_13 {
+    width: 319px;
+    height: 319px;
+    background-image: url("/albums/card1\ \(21\).png");
+}
+
+.album_14 {
+    width: 319px;
+    height: 319px;
+    background-image: url("/albums//card1\ \(31\).png");
+}
+
+.album_15 {
+    width: 319px;
+    height: 319px;
+    background-image: url("/albums/card1\ \(26\).png");
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 50px;
+    height: 6px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #089B99;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+}

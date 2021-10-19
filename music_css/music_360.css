@@ -1,0 +1,490 @@
+html {
+    background-color: #181727;
+    display: grid;
+}
+
+.body {
+    background-color: #0D0B0C !important;
+    display: block;
+    width: 100%;
+    max-width: 375px;
+    margin: 0px auto;
+}
+
+header,
+main,
+footer {
+    display: block;
+    width: 100%;
+    max-width: 375px;
+    margin: 0px auto;
+}
+
+.content {
+    flex-wrap: wrap;
+    max-width: 375px;
+}
+
+.menu {
+    display: none;
+}
+
+header {
+    display: none;
+}
+
+.carousel1 {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 375px;
+    height: 423px;
+}
+
+.music1 {
+    position: absolute;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.music2 {
+    position: absolute;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 295px;
+    margin-left: 20px;
+    color: #E5E5E5;
+}
+
+.music3 {
+    position: absolute;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    margin-top: 324px;
+    margin-left: 20px;
+    color: #E5E5E5;
+}
+
+.music4 {
+    position: absolute;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 295px;
+    margin-left: 20px;
+    color: rgba(229, 229, 229, 1);
+}
+
+.music5 {
+    position: absolute;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 324px;
+    margin-left: 20px;
+    color: #E5E5E5;
+}
+
+.tracks {
+    width: 324px;
+}
+
+.top_music {
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 543px;
+    margin-left: 13px;
+    margin-bottom: 41px;
+}
+
+.track {
+    width: 100%px;
+    height: 40px;
+    margin-left: 15px;
+    margin-bottom: 6px;
+}
+
+.song {
+    color: rgba(255, 255, 255, 1);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.artist {
+    font-family: Open Sans;
+    color: rgba(8, 155, 153, 1);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.label {
+    display: none;
+}
+
+.position_of_track {
+    position: absolute;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.title_top_10_of_tracks {
+    display: inline;
+    font-family: Bebas Neue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+.title_top_10_of_tracks article {
+    display: inline;
+    color: #089B99;
+}
+
+.liquid-button {
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.title {
+    font-family: Bebas Neue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(8, 155, 153, 1);
+    margin-left: 130px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.carousel2 {
+    width: 351px;
+    height: 375px;
+    display: none;
+}
+
+.new_releases_carousel_mobile {
+    width: 351px;
+    height: 375px;
+    margin-left: 12px;
+}
+
+.new_releases_carousel_mobile .elements {
+    display: flex;
+    flex-wrap: wrap;
+    width: 351px;
+    height: 400px;
+}
+
+.new_releases_carousel_mobile .down {
+    display: flex;
+    flex-wrap: wrap;
+    width: 351px;
+    height: 400px;
+}
+
+.new_releases_carousel_mobile .element {
+    width: 172px;
+    height: 162px;
+    margin-left: 7px;
+    margin-bottom: 7px;
+}
+
+.new_releases_carousel_mobile .element_first {
+    width: 172px;
+    height: 162px;
+    margin-bottom: 7px;
+}
+
+.new_releases_carousel_mobile img {
+    width: 172px;
+    height: 162px;
+}
+
+.new_releases_carousel_mobile .element_text_1 {
+    position: absolute;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #E5E5E5;
+    margin-left: 5px;
+    margin-top: 124px;
+}
+
+.new_releases_carousel_mobile .element_text_2 {
+    position: absolute;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 5px;
+    margin-top: 140px;
+}
+
+.carousel3 {
+    display: none;
+}
+
+.podcasts_mobile {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    width: 350px;
+    margin-left: 15px;
+}
+
+.podcasts_mobile .elements {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 400px;
+}
+
+.podcasts_mobile .element {
+    width: 172px;
+    height: 162px;
+    margin-left: 5px;
+}
+
+.podcasts_mobile .element_first {
+    width: 172px;
+    height: 162px;
+}
+
+.podcasts_mobile img {
+    width: 173px;
+    height: 173px;
+}
+
+.podcasts_mobile .element_text_1 {
+    font-family: Bebas Neue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E5E5E5;
+    margin-top: 14px;
+}
+
+.podcasts_mobile .element_text_2 {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 24px;
+}
+
+.podcasts_mobile {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    width: 350px;
+    margin-left: 15px;
+}
+
+.new_albums_mobile {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    width: 350px;
+    margin-left: 15px;
+}
+
+.new_albums_mobile .elements {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 400px;
+}
+
+.new_albums_mobile .element {
+    width: 172px;
+    height: 173px;
+    margin-left: 5px;
+}
+
+.new_albums_mobile.element_first {
+    width: 172px;
+    height: 173px;
+}
+
+.new_albums_mobile img {
+    width: 173px;
+    height: 173px;
+}
+
+.new_albums_mobile .element_text_1 {
+    position: absolute;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 126px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.new_albums_mobile .element_text_2 {
+    position: absolute;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 10px;
+    margin-top: 145px;
+}
+
+.carousel4 {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: none;
+}
+
+.carousel5 {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: none;
+}
+
+.top_djs_mobile {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    width: 350px;
+    margin-left: 15px;
+}
+
+.top_djs_mobile .elements {
+    display: flex;
+    flex-wrap: wrap;
+    width: 351px;
+    height: 300px;
+}
+
+.top_djs_mobile .element {
+    width: 113px;
+    height: 113px;
+    margin-left: 5px;
+}
+
+.top_djs_mobile .element_first {
+    width: 113px;
+    height: 113px;
+}
+
+.top_djs_mobile img {
+    width: 113px;
+    height: 113px;
+}
+
+.top_djs_mobile .element_text_2 {
+    position: absolute;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 6px;
+    margin-top: 88px;
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 50px;
+    height: 6px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #089B99;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+}

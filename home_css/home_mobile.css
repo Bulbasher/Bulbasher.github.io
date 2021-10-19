@@ -1,0 +1,145 @@
+html {
+    background-color: #181727;
+    display: grid;
+}
+
+.body {
+    background-color: #0D0B0C !important;
+    display: block;
+    width: 100%;
+    max-width: 375px;
+    margin: 0px auto;
+}
+
+header,
+main,
+footer {
+    display: block;
+    width: 100%;
+    max-width: 375px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 375px;
+    margin: 0px auto;
+}
+
+.news_carousel {
+    display: none;
+    width: 375px;
+    height: 300px;
+}
+
+.news {
+    width: 375px;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+}
+
+.news img {
+    width: 365px;
+}
+
+.news div {
+    margin-top: 60px;
+}
+
+.news article {
+    margin-left: 5px;
+}
+
+.news_text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+}
+
+.photos {
+    display: none;
+}
+
+.name_songs {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #E5E5E5;
+    text-decoration: none;
+    margin-top: 282px;
+    margin-left: 20px;
+}
+
+.name_artist {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.artist_1 {
+    width: 319px;
+    height: 350px;
+    background-image: url("/img/Rectangle31.png");
+}
+
+.artist_2 {
+    width: 319px;
+    height: 350px;
+    background-image: url("/img/Rectangle32.png");
+}
+
+.artist_3 {
+    width: 319px;
+    height: 350px;
+    background-image: url("/img/Rectangle33.png");
+}
+
+.artists {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.artists .artist_1 {
+    margin: 0px auto;
+    text-decoration: none;
+}
+
+.artists a {
+    margin-top: 60px;
+    margin: 0px auto;
+    text-decoration: none;
+}
+
+.videos {
+    width: 1015px;
+    margin-top: 60px;
+    display: none;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
