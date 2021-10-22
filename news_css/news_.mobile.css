@@ -95,18 +95,13 @@ footer {
     align-items: center;
 }
 
-.news_carousel_mobile .carousel_data {
-    width: 363px;
-    height: 137px;
-    font-family: Bebas Neue;
-    position: absolute;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    color: rgba(255, 255, 255, 0.2);
-    margin-top: 315px;
-    margin-left: 20px;
-    display: flex;
-    align-items: center;
+.carousel-indicators li {
+    width: 50px !important;
+    height: 6px !important;
+    background-color: #089B99 !important;
+    margin-left: 20px !important;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
 }

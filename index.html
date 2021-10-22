@@ -11,11 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css_without_content/menu.css">
-    <link rel="stylesheet" href="/css_without_content/header.css">
-    <link rel="stylesheet" href="/css_without_content/footter.css">
-    <link rel="stylesheet" href="/home_css/main.css">
-    <link rel="stylesheet" href="/home_css/home_mobile.css" media="all and (max-width: 375px)">
+    <link rel="stylesheet" href="/css_without_content/menu.css" media="all and (max-width: 375px)">
+    <link rel="stylesheet" href="/css_without_content/header.css" media="all and (max-width: 375px)">
+    <link rel="stylesheet" href="/css_without_content/footter.css" media="all and (max-width: 375px)">
+    <link rel="stylesheet" href="/css_without_content/footter_mobile.css">
+    <link rel="stylesheet" href="/home_css/main.css" media="all and (max-width: 375px)">
+    <link rel="stylesheet" href="/home_css/home_mobile.css">
+    <link rel="stylesheet" href="/css_without_content/header_mobile.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -23,25 +25,52 @@
     <title>EDM MUSIC</title>
 </head>
 <header>
-    <div class="header_text_part"><text class="header_text"><text class="header_text_ED">ED</text>MUSIC</text>
+    <div class="header_mobile">
+        <div class="link_section">
+            <input id="toggle" type="checkbox" style="display: none;">
+            <label class="for_bottom" for="toggle">
+                <span></span>
+            </label>
+            <ul class="list_of_links">
+                <a class="links" href="#" title="ссылка"><img src="/img/Property 1=home, Property 2=active.png" alt=""></a>
+                <a class="links" href="#" title="Events"><img src="/img/Property 1=events, Property 2=inactive.png" alt=""></a>
+                <a class="links" href="/Music.html" title="Music"><img src="img/Property 1=music, Property 2=inactive.png" alt=""></a>
+                <a class="links" href="/Photo.html" title="Photos"><img src="/img/Property 1=photo, Property 2=inactive.png"></a>
+                <a class="links" href="#" title="Video"><img src="img/Property 1=video, Property 2=inactive.png"></a>
+                <a class="links" href="/News.html" title="News"><img src="img/Property 1=news, Property 2=inactive.png" alt=""></a>
+                <a class="links" href="#" title="Store"><img src="img/Property 1=store, Property 2=inactive.png" alt=""></a>
+            </ul>
+        </div>
+        <div class="header_text_part"><text class="header_text"><text class="header_text_ED">ED</text>MUSIC</text>
+        </div>
+        <ul class="position_right">
+            <li class="ul_in_line menu_li"> <img class="search" src="img/search.png" alt="search"></a>
+            </li>
+            <li class="ul_in_line menu_li"> <img class="person" src="img/person.png" alt="authorisation"></a>
+            </li>
+        </ul>
     </div>
-    <ul class="networks position_left">
-        <li class="ul_in_line menu_li">
-            <a class="instagram" href="#" title="instagram"><img src="img/free-icon-instagram-1051313 1 (1).png" alt="instagram"></a>
-        </li>
-        <li class="ul_in_line menu_li">
-            <a class="facebook" href="#" title="facebook"><img src="img/free-icon-facebook-circular-logo-20673 1 (4).png" alt="facebook"></a>
-        </li>
-        <li class="ul_in_line menu_li">
-            <a class="twitter" href="#" title="twitter"><img src="img/free-icon-twitter-152809 1 (3).png" alt="twitter"></a>
-        </li>
-    </ul>
-    <ul class="networks position_right">
-        <li class="ul_in_line menu_li"> <img class="search" src="img/search.png" alt="search"></a>
-        </li>
-        <li class="ul_in_line menu_li"> <img class="person" src="img/person.png" alt="authorisation"></a>
-        </li>
-    </ul>
+    <div class="header">
+        <div class="header_text_part"><text class="header_text"><text class="header_text_ED">ED</text>MUSIC</text>
+        </div>
+        <ul class="networks position_left">
+            <li class="ul_in_line menu_li">
+                <a class="instagram" href="#" title="instagram"><img src="img/free-icon-instagram-1051313 1 (1).png" alt="instagram"></a>
+            </li>
+            <li class="ul_in_line menu_li">
+                <a class="facebook" href="#" title="facebook"><img src="img/free-icon-facebook-circular-logo-20673 1 (4).png" alt="facebook"></a>
+            </li>
+            <li class="ul_in_line menu_li">
+                <a class="twitter" href="#" title="twitter"><img src="img/free-icon-twitter-152809 1 (3).png" alt="twitter"></a>
+            </li>
+        </ul>
+        <ul class="networks position_right">
+            <li class="ul_in_line menu_li"> <img class="search" src="img/search.png" alt="search"></a>
+            </li>
+            <li class="ul_in_line menu_li"> <img class="person" src="img/person.png" alt="authorisation"></a>
+            </li>
+        </ul>
+    </div>
 </header>
 
 <div class="menu">
@@ -140,6 +169,21 @@
         <div class="footer_text_part">
             <text class="footer_text"><text class="footer_text_ED">ED</text>MUSIC</text>
         </div>
+        <div class="footer_mobile">
+            <div class="links_mobile ">
+                <div class="Group_of_links_one">
+                    <a class="footer_mobile_link" href="#" title="Home">Home</a>
+                    <a class="footer_mobile_link" href="/News.html" title="News ">News</a>
+                    <a class="footer_mobile_link" href="/Music.html" title="Music ">Music</a></div>
+                <div class="Group_of_links_two">
+                    <a class="footer_mobile_link" href="/Photo.html" title="Photo ">Photo</a>
+                    <a class="footer_mobile_link" style="margin-top: -6px;" href="#" title="Video ">Video</a></div>
+                <div class="Group_of_links_three">
+                    <a class="footer_mobile_link" href="#" title="Events ">Events</a>
+                    <a class="footer_mobile_link" style="margin-top: -6px;" href="#" title="Store ">Store</a>
+                </div>
+            </div>
+        </div>
         <div class="links ">
             <a class="footer_link " href="#" title="Home">Home</a>
             <a class="footer_link " href="/News.html" title="News ">News</a>
@@ -150,9 +194,10 @@
             <a class="footer_link " href="#" title="Store ">Store</a>
         </div>
         <div class="networks_footer ">
-            <a class="twitter " href="twitter"><img src="img/free-icon-twitter-152809 1 (3).png " alt="twitter "></a>
-            <a class="facebook " href="facebook"><img src="img/free-icon-facebook-circular-logo-20673 1 (4).png " alt="facebook "></a>
-            <a class="instagram " href="instagram"><img src="img/free-icon-instagram-1051313 1 (1).png " alt="instagram "></a>
+            <a class="twitter " style="margin-top: 9px;" href="twitter"><img src="img/free-icon-twitter-152809 1 (5).png" alt="twitter "></a>
+            <a class="facebook " href="facebook"><img src="img/free-icon-facebook-circular-logo-20673 1 (6).png " alt="facebook "></a>
+            <a class="instagram " href="instagram"><img src="img/free-icon-instagram-1051313 1 (3).png" alt="instagram "></a>
+        </div>
     </footer>
 
 </body>

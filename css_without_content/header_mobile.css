@@ -1,4 +1,4 @@
-header {
+.header_mobile {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,6 +8,14 @@ header {
     background: url("/img/Line1.png") no-repeat center;
 }
 
+.header {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
 .header_text_part {
     display: flex;
     align-items: center;
@@ -15,7 +23,7 @@ header {
 }
 
 .header_text {
-    padding: 20px;
+    padding-left: 49px;
     position: relative;
     width: 93px;
     height: 43px;
@@ -35,17 +43,17 @@ header {
 
 .for_bottom {
     display: flex;
-    align-items: center;
     position: absolute;
     width: 35px;
-    height: 35px;
     cursor: pointer;
     z-index: 1;
+    margin-top: 4px;
 }
 
 .for_bottom>span,
 .for_bottom>span::before,
 .for_bottom>span::after {
+    margin-left: -45px;
     position: absolute;
     width: 100%;
     height: 4px;
@@ -55,11 +63,13 @@ header {
 .for_bottom>span::before {
     content: "";
     top: -8px;
+    left: 45px;
 }
 
 .for_bottom>span::after {
     content: "";
     top: 8px;
+    left: 45px;
 }
 
 .list_of_links {
@@ -67,17 +77,14 @@ header {
     position: absolute;
     visibility: hidden;
     left: -100%;
-    width: 300px;
-    height: 300px;
-    margin: 0;
+    width: 375px;
+    margin: 0px auto;
     padding: 80px 0;
     list-style: none;
-    text-align: center;
-    overflow: scroll;
-    background-color: #000000;
+    background-color: #2c1b1b9a;
 }
 
-.links {
+.header_links_mobile {
     display: block;
     padding: 12px 24px;
     color: #00885b;
@@ -87,8 +94,8 @@ header {
     text-decoration: none;
 }
 
-.links:hover {
-    background-color: #359bc7;
+.links:hover img {
+    background-color: #0d8196;
 }
 
 #toggle:checked~.for_bottom>span {
@@ -108,9 +115,27 @@ header {
 #toggle:checked~.list_of_links {
     visibility: visible;
     left: 0;
+    margin-left: 973px;
+    margin-top: 62px;
 }
 
 .list_of_links {
     margin: 0px;
     padding: 0px;
+}
+
+.ul_in_line {
+    list-style: none;
+    display: inline;
+    padding-right: 15px;
+}
+
+.ul_in_line img:hover {
+    border: solid 1px bisque;
+}
+
+.position_right {
+    position: relative;
+    left: 88px;
+    top: 12px;
 }

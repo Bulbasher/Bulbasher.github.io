@@ -165,7 +165,16 @@ footer {
 
 .news_carousel_mobile {
     width: 375px;
-    display: none
+    display: none;
 }
 
-;
+.carousel-indicators li {
+    width: 50px !important;
+    height: 6px !important;
+    background-color: #089B99 !important;
+    margin-left: 20px !important;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+}

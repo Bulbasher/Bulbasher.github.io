@@ -42,7 +42,6 @@ footer {
     font-size: 20px;
     line-height: 24px;
     color: rgb(255, 255, 255);
-    margin-top: 60px;
 }
 
 .news img {
@@ -50,7 +49,7 @@ footer {
 }
 
 .news div {
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .news article {
@@ -96,6 +95,7 @@ footer {
 }
 
 .artist_1 {
+    margin-left: 29px !important;
     width: 319px;
     height: 350px;
     background-image: url("/img/Rectangle31.png");

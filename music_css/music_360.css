@@ -468,21 +468,10 @@ header {
 }
 
 .carousel-indicators li {
-    box-sizing: content-box;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    width: 50px;
-    height: 6px;
-    margin-right: 3px;
-    margin-left: 3px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: #089B99;
-    background-clip: padding-box;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    opacity: .5;
-    transition: opacity .6s ease;
+    width: 50px !important;
+    height: 6px !important;
+    background-color: #089B99 !important;
+    margin-left: 20px !important;
 }
 
 .carousel-indicators .active {
