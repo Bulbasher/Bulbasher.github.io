@@ -452,7 +452,11 @@ footer {
 .liquid-button {
     position: absolute;
     left: 1230px;
+<<<<<<< HEAD
     top: 110px;
+=======
+    top: 133.32px;
+>>>>>>> 198e369a83b93e8bf7eadbf756f95d849684ca12
     cursor: pointer;
 }
 
